@@ -1,0 +1,211 @@
+  \documentclass[11pt,letterpaper]{moderncv}
+
+  %Definición del tema para el CV
+  \moderncvtheme[blue]{casual}
+
+  \usepackage[utf8]{inputenc}
+  \usepackage{amsmath}
+  \usepackage{amsfonts}
+  \usepackage{amssymb}
+  \usepackage{hyperref}
+
+  % Ajuste los máargenes de página
+  \usepackage[scale=0.8]{geometry}
+  %Si se quiere cambiar el ancho de las columnas con las fechas
+  \setlength{\hintscolumnwidth}{3.3cm}
+  %Sólo para el tema clásico, si se quiere cambiar el ancho del contenedor del nombre (para dejar mas espacio para los detalles de la dirección)
+  %\AtBeginDocument{\setlength{\maketitlenamewidth}{6 cm}}  
+  % Requerido cuando los cambios son hechos a las longitudes del marco de página
+  \AtBeginDocument{\recomputelengths} 
+
+  %Datos personales
+  %Nombre
+  \firstname{Christian}
+  %Apellido
+  \familyname{Gutiérrez Sierra}
+  % Opcional, Título de la persona
+  %\title{Ingeniero de Sistemas}
+  %Opcional, Dirección de residencia o trabajo           
+  \address{Calle 89 \# 48 - 32}{Medellín (Colombia)} 
+  %Opcional, Teléfono celular
+  \mobile{(+57) 300 246 07 25}
+  %Opcional, teléfono fijo 
+  \phone{(+57) 4 212 81 82} 
+  %Opcional, Fax
+  %\fax{fax (optional)}
+  %Opcional, dirección de correo electrónico 
+  \email{chesstrian@gmail.com}
+  %Opcional, Información adicional
+  \homepage{www.blogcito.info}
+  %64pt es la altura de la imagen que debe ser redimensionada, e 'im' es el nombre de archivo donde se encuentra la imagen.
+  \photo[150pt]{im}
+  %Opcional, Cita antes de los datos del CV
+  \quote{Estudiante de ingeniería de sistemas con amplia experiencia en instalación y administración de servidores e implementación de soluciones a la medida en entornos de producción, con conocimientos en desarrollo de software y desarrollo web. Convencido de la libertad del conocimiento y amante del software libre, ávido de conocimiento y de emprender nuevos retos.}
+
+  %Si no se quieren contar las páginas
+  %\nopagenumbers{} 
+
+  \begin{document}
+
+  \maketitle
+  %DATOS PERSONALES ---------------------------------------------------------------------------------------
+  \section{Datos personales}
+  \cvline{Nombre}{Christian Gutiérrez Sierra}
+  \cvline{Cédula}{1.017'128.309 de Medellín (Antioquia)}
+  \cvline{Fecha de nacimiento}{15 de marzo de 1986}
+  \cvline{Lugar de nacimiento}{Medellín (Colombia)}
+  \cvline{Estado civil}{Soltero}
+  \cvline{Lugar de residencia}{Medellín, Antioquia (Colombia)}
+  \cvline{Dirección}{Calle 89 \# 48 - 32}
+  \cvline{Teléfono fijo}{(+57) 4 212 81 82}
+  \cvline{Teléfono móvil}{(+57) 300 246 07 25}
+  \cvline{e-mail}{chesstrian@gmail.com}
+  %-------------------------------------------------------------------------------------------------------
+
+  \pagebreak
+
+  %FORMACIÓN ACADÉMICA -----------------------------------------------------------------------------------
+  \section{Formación académica}
+  \subsection{Estudios secundarios}
+  \cventry{1997 - 2002}{\textit{\textbf{Bachiller Técnico en Sistemas}}}{Colegio de Bachillerato de Galeras}{Galeras (Colombia)}{}{}
+  \subsection{Estudios superiores}
+  \cventry{2003 - 2004}{\textit{\textbf{Física}}}{Universidad de Antioquia}{}{Segundo semestre}{Retirado}
+  \cventry{2005 - 2013}{\textit{\textbf{Ingeniería de sistemas e informática}}}{Universidad Nacional de Colombia}{Sede Medellín}{Décimo semestre}{}
+  \subsection{Eventos y conferencias}
+  \cventry{2008}{FLISOL 2008 - Festival Latinoamericano de Instalación de Software Libre}{Parque Explora}{Medellín (Colombia)}{}{Organizador}
+  \cventry{2009}{FLISOL 2009 - Festival Latinoamericano de Instalación de Software Libre}{MAMM}{Medellín (Colombia)}{}{Organizador}
+  \cventry{2009}{IEEExtreme 3.0 - Programming competition}{Universidad de Antioquia}{(Colombia)}{24 horas}{Participante}
+  \cventry{2010}{Barcamp Security Edition}{Museo de Antioquia}{Medellín, (Colombia)}{}{Logística}
+  \cventry{2011}{Barcamp Security Edition}{Biblioteca EPM}{Medellín, (Colombia)}{}{Logística}
+  \cventry{2011}{FLISOL 2011 - Festival Latinoamericano de Instalación de Software Libre}{Museo de Antioquia}{Medellín (Colombia)}{}{Organizador}
+  \cventry{2011}{Campus Party Colombia - CPCO4}{Corferias}{Bogotá, (Colombia)}{}{Asistente}
+  %-------------------------------------------------------------------------------------------------------
+
+  \pagebreak
+
+  %HABILIDADES ---------------------------------------------------------------------------------------------
+  \section{Habilidades}
+
+  \subsection{Habilidades informáticas}
+  \cvcomputer{\textbf{Programación orientada a objetos}}{C++, Python y Java.}{\textbf{Programación web}}{PHP, Javascript.}
+  \smallskip
+  \smallskip
+  \cvcomputer{\textbf{Programación orientada a eventos}}{Node JS.}{\textbf{Otros lenguajes}}{Asterisk Dialplan, Bash Scripting, C.}
+  \smallskip
+  \smallskip
+  \cvcomputer{\textbf{Manejo de CMS}}{Wordpress, Drupal, Joomla!, Wiki.}{\textbf{Frameworks}}{Express, JQuery, Bootstrap.}
+  \smallskip
+  \smallskip
+  \cvcomputer{\textbf{Bases de datos}}{Modelos relacional y objeto-relacional (SQLite, MySQL, PostgreSQL y Oracle). Bases de datos No SQL (MongoDB).}{\textbf{Administración de servidores}}{Servidores Linux y MS Windows. Implementación, migración y actualización de servidores.}
+  \smallskip
+  \smallskip
+  \cvcomputer{\textbf{Sistemas operativos}}{GNU Linux, Microsoft Windows.}{\textbf{Sistemas de educación virtual}}{Moodle, Dokeos.}
+  \smallskip
+  \smallskip
+  \cvcomputer{\textbf{Redes y telefonía}}{Diseño, instalación y administración de redes pequeñas cableadas o inalámbricas; manejo de Asterisk y conexión a través de AGI y AMI.}{\textbf{Otros}}{Edición de textos científicos con \LaTeX, manejo de estándares basados en XML, manejo de HTML, HTML5, CSS y CSS3, manejo de sistemas de control de versiones (Git).}
+  \smallskip
+  \smallskip
+
+  \subsection{Habilidades generales}
+  \cvlistitem[-]{Autodidacta.}
+  \cvlistitem[-]{Aprendizaje rápido y capacidad de adaptación.}
+  \cvlistitem[-]{Constante actualización de los conocimientos por medio de investigación y estudio de tutoriales en internet.}
+  \cvlistitem[-]{Experiencia enseñando a personas de diferentes niveles de conocimiento informático.}
+  \cvlistitem[-]{Habilidades comunicativas y resolución de conflictos trabajando en equipo.}
+  \cvlistitem[-]{Ingenio, responsabilidad y eficiencia.}
+  \bigskip
+
+  \section{Idiomas}
+  \cvitemwithcomment{Inglés}{Avanzado}{}
+  \cvline{}{Lectura: Fluida}
+  \cvline{}{Escritura: Medio}
+  \cvline{}{Habla: Medio}
+  \cvline{}{Escucha: Fluida}
+
+
+  %---------------------------------------------------------------------------------------------------------
+
+  \pagebreak
+
+  %EXPERIENCIA LABORAL -------------------------------------------------------------------------------------
+  \section{Experiencia profesional}
+
+  \subsection{Experiencia laboral}
+  \cventry{2006 - 2007}{Auxiliar de docencia sobre plataforma Moodle}{Universidad Nacional de Colombia, Sede Medellín}{}{}{}
+  \cvline{}{Jefe inmediato: Diana Palencia}
+  \cvline{}{Teléfono: (+57) 4 430 90 00}
+  \cvline{}{Periodo: Marzo de 2006 - Marzo de 2007}
+
+  \cventry{2007}{Administración de servidores Asterisk, IPCop, PDC en Linux}{Dataware Ltda}{}{}{}
+  \cvline{}{Jefe inmediato: Julián Gutiérrez}
+  \cvline{}{Teléfono: (+57) 4 409 95 00}
+  \cvline{}{Periodo: Abril de 2007 - Julio de 2007}
+
+  \cventry{2008}{Soporte técnico en Biblioteca EFE Gómez}{Universidad Nacional de Colombia, Sede Medellín}{}{}{}
+  \cvline{}{Jefe Inmediato: Alba Nelly Alzate}
+  \cvline{}{Teléfono: (+57) 4 430 90 00}
+  \cvline{}{Periodo: Enero de 2008 - Junio de 2008}
+
+  \cventry{2008}{Soporte técnico}{Kazak Ltda}{}{}{}
+  \cvline{}{Jefe Inmediato: Santiago Padilla}
+  \cvline{}{Teléfono: (+57) 4 231 91 81}
+  \cvline{}{Periodo: Julio de 2008 - Diciembre de 2008}
+
+  \cventry{2009 - 2010}{Administrador de servidores de Matemáticas y Química}{Universidad Nacional de Colombia, Sede Medellín}{}{}{}
+  \cvline{}{Jefe Inmediato: Carlos Mejía Salazar}
+  \cvline{}{Teléfono: (+57) 4 430 90 00}
+  \cvline{}{Periodo: Enero de 2009 - Junio de 2010}
+
+  \cventry{2010 - 2011}{Administrador servidores de educación virtual con Moodle}{Universidad Nacional de Colombia, Sede Medellín}{}{}{}
+  \cvline{}{Jefe Inmediato: José Luis González}
+  \cvline{}{Teléfono: (+57) 4 430 90 00}
+  \cvline{}{Periodo: Julio de 2010 - Junio de 2011}
+
+  \cventry{2011 - 2012}{Soporte técnico en Laboratorio de Sistemas}{Universidad Nacional de Colombia, Sede Medellín}{}{}{}
+  \cvline{}{Jefe Inmediato: Jhon Jairo Tabares}
+  \cvline{}{Teléfono: (+57) 4 430 90 00}
+  \cvline{}{Periodo: Julio de 2011 - Junio de 2012}
+
+  \smallskip
+  \subsection{Participación en proyectos}
+
+  \cventry{2005 - 2008}{UNALIX}{Grupo de usuarios de software libre}{Universidad Nacional de Colombia}{}{Participación: Miembro}
+
+  \cventry{2009}{Adodm}{Asterisk Dial Out Deliver Message}{}{Proyecto de software libre}{Participación: Diseñador, analista y desarrollador}
+
+  \cventry{2011}{Asterisk CC to MySQL DB}{}{}{Proyecto de comercial}{Participación: Desarrollador}
+
+  \cventry{2012}{DropSMS}{Sistema para consultas mediante SMS en dispositivos móviles}{}{Proyecto comercial}{Participación: Analista y desarrollador}
+
+  \cventry{2013}{HexaHUD}{Aplicación Realtime para Agentes de Call Center}{}{}{Participación: Diseñador, analista y desarrollador}
+  %-------------------------------------------------------------------------------------------------------
+
+  %\pagebreak
+  \bigskip
+
+  %REFERENCIAS---------------------------------------------------------------------------------------------
+  \section{Referencias}
+
+  \cventry{}{Iván Fernando Santa Ramírez}{Ingeniero electrónico}{}{}{}
+  \cvline{}{\textit{Ingeniero de proyectos VoIP}}
+  \cvline{}{DoctorPC Systems S.A.}
+  \cvline{}{Teléfono: (+57) 4 604 24 77}
+
+  \bigskip
+
+  \cventry{}{Daniel Pérez Alzate}{Séptimo semestre de ingeniería de sistemas}{}{}{}
+  \cvline{}{\textit{Desarrollador}}
+  \cvline{}{Grupo NetHexa S.A.S.}
+  \cvline{}{Teléfono: (+57) 4 320 20 30 ext. 1025}
+
+  \bigskip
+
+  \cventry{}{Melissa Andrea Robledo Benjumea}{Socióloga}{}{}{}
+  \cvline{}{\textit{Coordinadora Biblioteca Popular de Andalucía}}
+  \cvline{}{Corporación Mi Comuna 2}
+  \cvline{}{Teléfono: (+57) 4 521 72 38}
+
+  %\bigskip
+
+  %-------------------------------------------------------------------------------------------------------
+  \end{document}
